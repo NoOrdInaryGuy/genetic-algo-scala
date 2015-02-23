@@ -12,5 +12,7 @@ resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/release
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.1" % "test",
-  "org.mockito" % "mockito-core" % "1.10.8"
+  "org.mockito" % "mockito-core" % "1.10.8",
+  "org.scodec" %% "scodec-core" % "1.7.0",
+  "org.scodec" %% "scodec-scalaz" % "1.0.0"
 )
